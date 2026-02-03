@@ -1,0 +1,6 @@
+# templates/APM.yaml
+# Minimal test template for APM config
+apm:
+  enabled: true
+  service_name: mcd-test-service
+  environment: dev
