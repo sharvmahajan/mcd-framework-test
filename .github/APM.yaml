@@ -1,0 +1,9 @@
+# templates/APM.yaml
+# Minimal test template for APM config
+apm:
+  enabled: true
+  service_name: "mcd-framework-test-service"
+  environment: dev
+  tags:
+    - "repo:sharvmahajan/mcd-framework-test"
+    - "branch:main"
